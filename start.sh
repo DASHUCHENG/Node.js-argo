@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-NEZHA_SERVER=${NEZHA_SERVER:-'nz.nezha.com'}
+NEZHA_SERVER=${NEZHA_SERVER:-'wm.yanland.pp.ua'}
 NEZHA_PORT=${NEZHA_PORT:-'5555'}
-NEZHA_KEY=${NEZHA_KEY:-'eOLJC0tJpf8abcdefg'}
+NEZHA_KEY=${NEZHA_KEY:-'l86VkqbzWSFfLfCOo6'}
 TLS=${TLS:-''}
-ARGO_DOMAIN=${ARGO_DOMAIN:-''}
-ARGO_AUTH=${ARGO_AUTH:-''}
-UUID=${UUID:-'de04add9-5c68-8bab-870c-08cd5320df00'}
-CFIP=${CFIP:-'skk.moe'}
-NAME=${NAME:-'ABCD'} #节点名称，例如：glitch，replit
+ARGO_DOMAIN=${ARGO_DOMAIN:-'scalingo2.aboy.gay'}
+ARGO_AUTH=${ARGO_AUTH:-'{"AccountTag":"f60e2ecba97d618dc60669e8819d1f55","TunnelSecret":"Jk0lfZyMgc5fH1/4k5QlrZ8yRmI1YkiiYClwWrhm0LI=","TunnelID":"48527ff7-c8c7-4f1e-ad61-08994c0cb3c0"} '}
+UUID=${UUID:-'95dd5820-9302-4398-8209-1c4b745b6b29'}
+CFIP=${CFIP:-'104.16.60.76'}
+NAME=${NAME:-'scalingo2'} #节点名称，例如：glitch，replit
 
 # 生成xri配置文件
 generate_config() {
